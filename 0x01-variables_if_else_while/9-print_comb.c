@@ -16,6 +16,5 @@ putchar(' ');
 }
 putchar((num % 10) + '0');
 }
-putchar('$');
 return (0);
 }
