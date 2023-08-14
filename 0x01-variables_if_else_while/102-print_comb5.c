@@ -22,10 +22,12 @@ int main(void)
 		putchar((num3 % 10) + '0');
 		putchar((num4 % 10) + '0');
 
-		if (num1 == 9 && num2 == 9 && num3 == 9 && num == 9)
+		if (num1 == 9 && num2 == 9 && num3 == 9 && num4 == 9)
 			continue;
 		putchar(',');
 		putchar(' ');
+	}
+		}
 	}
 }
 putchar('\n');
