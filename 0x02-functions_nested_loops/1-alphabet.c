@@ -10,6 +10,7 @@ int main(void)
 
 	for (c = 'a'; c <= 'z'; ++c)
 	{
+		print_alphabet();
 		_putchar(c);
 		_putchar('\n');
 	}
