@@ -1,19 +1,21 @@
 #include "main.h"
 /**
- * test_isalpha - Entry point
+ * _isalpha - Entry point
  *
- * @c: is the character to check
+ * @c: the character to check
  *
- * Return: 1 if c is lowercase or  uppercase  and 0 if otherwise
+ * Return: 1 if c is letter otherwise return 0
  */
-int test _isalpha(int c)
+int _isalpha(int c)
 {
-	if (c >= 'a' && c >='A')
+	int c;
+
+	if (c >= 'a' || c >= 'A')
 	{
 		return (1);
 	}
 	else
 	{
-		return(0);
+		return (0);
 	}
 }
