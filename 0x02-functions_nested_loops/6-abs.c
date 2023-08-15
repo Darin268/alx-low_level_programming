@@ -2,16 +2,18 @@
 /**
  * _abs - Entry point
  *
- * @x: is the number to check
- * @y: is absolute value of x
+ * @n: is the number to check
  *
  * Return: 0 Always (Success)
  */
-int _abs(int x)
+int _abs(int n)
 {
 	int y;
 
-	y = _abs(x);
-	_putchar(y);
-	return (0);
+	if (n < 0)
+	{
+		y = n * -1
+		       return (y);
+	}
+return (n);	
 }
