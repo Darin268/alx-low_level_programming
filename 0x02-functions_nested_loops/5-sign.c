@@ -1,9 +1,8 @@
 #include "main.h"
 /**
- * print_sign _ Entry point to print sign befor n
+ * print_sign - Entry point to print sign befor n
  *
- * n: is the number to check
- * _putchar is to print sign
+ * @n: is the number to check
  *
  * Return: 1 if n is greater than 0, if n is 0 return 0 otherwise return -1
  */
