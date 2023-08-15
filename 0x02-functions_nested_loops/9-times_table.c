@@ -1,8 +1,7 @@
 #include "main.h"
 /**
- * void times_table(void) - Entry point
+ * times_table - Entry point
  *
- * Return: 0
  */
 void times_table(void)
 {
