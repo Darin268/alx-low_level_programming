@@ -23,4 +23,8 @@ int print_last_digit(int n)
 			_putchar(x + '0');
 			return (x);
 		}
+		if (x < 0)
+		{
+			x = -x;
+		}
 }
