@@ -2,6 +2,6 @@
 #define MYHEADERS_H
 
 int _putchar(char c);
-int add(int a, int b);
+void print_alphabet(void);
 
 #endif
