@@ -11,10 +11,7 @@ int add(int a, int b)
 {
 	int z;
 
-	for (a > 0 && b > 0)
-{
 	z = a + b;
 	_putchar(z);
 	return (z);
-}
 }
