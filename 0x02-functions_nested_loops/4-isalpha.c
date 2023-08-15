@@ -8,7 +8,6 @@
  */
 int _isalpha(int c)
 {
-	int c;
 
 	if (c >= 'a' || c >= 'A')
 	{
