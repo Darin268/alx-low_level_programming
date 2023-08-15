@@ -6,7 +6,7 @@
  *
  * Return: 0 Always (Success)
  */
-int int _abs(int n)
+int _abs(int n)
 {
 	int y;
 
