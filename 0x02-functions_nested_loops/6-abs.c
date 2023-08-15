@@ -6,14 +6,14 @@
  *
  * Return: 0 Always (Success)
  */
-int _abs(int n)
+int int _abs(int n)
 {
 	int y;
 
 	if (n < 0)
 	{
 		y = n * -1;
-return (y);
-	}
+		return (y);
+}
 return (n);
 }
