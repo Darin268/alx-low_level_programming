@@ -1,11 +1,13 @@
 #include <stdio.h>
 #include "main.h"
+
 /**
  * print_to_98 - Entry point
  *
  * @n: number to check
  * Return: Always 0 (Seccess)
  */
+
 void print_to_98(int n)
 {
 	int x, y;
@@ -29,5 +31,5 @@ void print_to_98(int n)
 			else if (y == 98)
 				printf("%d\n", y);
 	}
-	}
+}
 }
