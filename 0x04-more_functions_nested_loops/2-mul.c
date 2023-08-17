@@ -1,13 +1,11 @@
 #include "main.h"
 
 /**
- *
- * mul - Entry point
+ * mul - a function to multiply two digits
  *
  * @a: first character to multiply
  * @b: second character to multiply
- *
- * Return: Always 0 (Success)
+ * Return: to answer
  */
 
 int mul(int a, int b)
