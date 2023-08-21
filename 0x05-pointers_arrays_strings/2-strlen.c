@@ -3,7 +3,7 @@
 /**
  * _strlen - Entry point
  * @s: is the pointer to check
- * 
+ *
  * Return: the length of the string
  */
 
@@ -13,7 +13,6 @@ int _strlen(char *s)
 
 	for (i = 0; s[i] != '\0'; ++i)
 	{
-		_putchar(i);
 	}
 		return (i);
 }
