@@ -2,8 +2,8 @@
 
 /**
  * *_strcat - Entry point
- * @*dest: is the first string
- * @*src: is the second string
+ * @dest: is the first string
+ * @src: is the second string
  *
  * Return: to pointer string dest
  */
@@ -22,5 +22,5 @@ char *_strcat(char *dest, char *src)
 
 	dest[i] = '\0';
 
-	return(dest);
+	return (dest);
 }
