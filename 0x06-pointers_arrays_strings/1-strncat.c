@@ -6,7 +6,7 @@
  * @src: second string to check
  * @n: is the number of bytes
  *
- * return: to pointer string dest
+ * Return: to pointer string dest
  */
 
 char *_strncat(char *dest, char *src, int n)
