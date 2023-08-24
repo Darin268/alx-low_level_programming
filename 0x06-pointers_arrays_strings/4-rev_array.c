@@ -2,7 +2,7 @@
 
 /**
  * reverse_array - Entry point
- * @a: is the string to check
+ * @a: is the array to check
  * @n: number of elements of the array
  */
 
