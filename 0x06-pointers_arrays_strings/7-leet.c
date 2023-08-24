@@ -20,7 +20,7 @@ char *leet(char *c)
 		{
 			if (c[i] == a[j])
 			{
-				s[i] = b[j];
+				c[i] = b[j];
 			}
 		}
 	}
