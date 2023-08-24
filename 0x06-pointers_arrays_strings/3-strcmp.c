@@ -5,7 +5,7 @@
  * @s1: is the first string
  * @s2: is the second string
  *
- * Return: Always 0 (success)
+ * Return: 0 if s1 = s2 , negative if s1 < s2 and positive if s1 > s2
  */
 
 int _strcmp(char *s1, char *s2)
@@ -18,6 +18,6 @@ int _strcmp(char *s1, char *s2)
 		{
 			return (s1[i] - s2[i]);
 		}
-		return (0);
 	}
+		return (0);
 }
