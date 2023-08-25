@@ -1,8 +1,9 @@
 #include "main.h"
 
 /**
- * rot13
- * @c: is the string
+ * rot13 - Entry point
+ * @c: is the string to check
+ *
  * Return: to c
  */
 
