@@ -11,8 +11,8 @@ char *rot13(char *c)
 {
 	int i, j;
 
-	char *a = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
-	char *b = "NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm";
+	char a[52] = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
+	char b[52] = "NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm";
 
 	for (i = 0; c[i] != '\0'; i++)
 	{
@@ -21,6 +21,7 @@ char *rot13(char *c)
 			if (c[i] == a[j])
 			{
 				c[i] = b[j];
+				break;
 			}
 		}
 	}
