@@ -14,12 +14,18 @@ int actual_sqrt_recursion(int i, int n);
 int _sqrt_recursion(int n)
 {
 	if (n < 0)
-	{
+
 		return (-1);
-	}
+
 
 		return (actual_sqrt_recursion(n, 0));
 }
+
+/**
+ * actual_sqrt_recursion - to find natural
+ * @i: iterator
+ * @n: is the number to check
+ */
 
 int actual_sqrt_recursion(int i, int n)
 {
@@ -27,7 +33,7 @@ int actual_sqrt_recursion(int i, int n)
 	{
 		return (-1);
 	}
-	else if (i * i == n)
+	if (i * i == n)
 	{
 		return (i);
 	}
