@@ -1,5 +1,7 @@
 #include "main.h"
 
+int actual_sqrt_recursion(int i, int n);
+
 /**
  * _sqrt_recursion - Entry point
  * @n: is the int to check
@@ -14,6 +16,22 @@ int _sqrt_recursion(int n)
 	}
 	else
 	{
-		return (_sqrt_recursion(n));
+		return (actual_sqrt_recursion(n, 0));
+	}
+}
+
+int actual_sqrt_recursion(int i, int n)
+{
+	if (i * i > n)
+	{
+		return (-1);
+	}
+	else if (i * i == n)
+	{
+		return (i);
+	}
+	else
+	{
+		return (actual_sqrt_recursion(n, i + 1));
 	}
 }
