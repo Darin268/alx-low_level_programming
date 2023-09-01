@@ -5,7 +5,7 @@
  * @haystack: is the string to check
  * @needle: is the string to check
  *
- * @Return: Always 0 (Success)
+ * Return: Always 0 (Success)
  */
 
 char *_strstr(char *haystack, char *needle)
