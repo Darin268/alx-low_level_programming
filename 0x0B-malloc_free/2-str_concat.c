@@ -28,7 +28,7 @@ char *str_concat(char *s1, char *s2)
 	}
 
 	l = a + b;
-	c = mallco((sizeof(char) * l) + 1);
+	c = malloc((sizeof(char) * l) + 1);
 
 	if (c == NULL)
 		return (NULL);
@@ -41,7 +41,7 @@ char *str_concat(char *s1, char *s2)
 	}
 	if (d >= a)
 	{
-		c[d] = s2[b]
+		c[d] = s2[b];
 	}
 	}
 	c[d] = '\0';
