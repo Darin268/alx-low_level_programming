@@ -42,6 +42,7 @@ char *str_concat(char *s1, char *s2)
 	if (d >= a)
 	{
 		c[d] = s2[b];
+		b++;
 	}
 	}
 	c[d] = '\0';
