@@ -12,7 +12,7 @@
 char *str_concat(char *s1, char *s2)
 {
 	char *c;
-	unsigned int a, b, d, l;
+	int a, b, d, l;
 
 	if (s1 == NULL)
 		s1 = "\0";
@@ -46,7 +46,9 @@ char *str_concat(char *s1, char *s2)
 		c[d] = s2[b];
 		b++;
 	}
+
 	d++;
+
 	}
 	c[d] = '\0';
 	return (c);
