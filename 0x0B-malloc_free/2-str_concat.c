@@ -33,7 +33,9 @@ char *str_concat(char *s1, char *s2)
 	if (c == NULL)
 		return (NULL);
 
-	for (d < l)
+	b = 0;
+
+	while (d < l)
 	{
 	if (d <= a)
 	{
