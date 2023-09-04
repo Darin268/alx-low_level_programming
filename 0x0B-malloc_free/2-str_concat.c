@@ -45,11 +45,10 @@ char *str_concat(char *s1, char *s2)
 	{
 		c[d] = s2[b];
 		b++;
+		a++;
+	}
 	}
 
-	d++;
-
-	}
 	c[d] = '\0';
 	return (c);
 }
