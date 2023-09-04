@@ -44,7 +44,7 @@ for (h = 0; h < height; h++)
 {
 	for (w = 0; w < width; w++)
 	{
-		c[l][w] = 0;
+		c[h][w] = 0;
 	}
 }
 return (c);
