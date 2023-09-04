@@ -33,21 +33,22 @@ char *str_concat(char *s1, char *s2)
 	if (c == NULL)
 		return (NULL);
 
+	b = 0;
 
-	for (d = 0; d < l; d++)
+	while (d < l)
 	{
-	if (d <= a)
+		if (d <= a)
+			c[d] = s1[d];
 
-	c[d] = s1[d];
+		if (d >= a)
+		{
+			c[d] = s2[b];
+			b++;
+		}
 
-
-	if (d >= a)
-	{
-		c[d] = s2[b];
-		b++;
-		a++;
+		d++;
 	}
-	}
+
 
 	c[d] = '\0';
 	return (c);
