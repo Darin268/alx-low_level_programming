@@ -36,19 +36,19 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	if (c == NULL)
 		return (NULL);
 
-	b = 0;
-	while (d < l)
+	d = 0;
+	while (b < l)
 	{
-		if (d <= a)
-			c[d] = s1[d];
+		if (b <= a)
+			c[b] = s1[b];
 
-		if (d >= a)
+		if (b >= a)
 		{
-			c[d] = s2[b];
-			b++;
+			c[b] = s2[b];
+			d++;
 		}
-		d++;
+		b++;
 	}
-	c[d] = '\0';
+	c[b] = '\0';
 	return (c);
 }
