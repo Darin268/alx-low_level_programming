@@ -21,7 +21,8 @@ int *array_range(int min, int max)
 
 			if (a == NULL)
 			return (NULL);
-			for (b = min; b < max; b++)
+
+			for (b = min; b <= max; b++)
 			{
 			a[c] = b;
 			c++;
