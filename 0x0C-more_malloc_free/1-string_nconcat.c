@@ -21,7 +21,6 @@ unsigned int b = 0;
 		s1 = "\0";
 	if (s2 == NULL)
 		s2 = "\0";
-
 	for (a = 0; s1[a] != '\0'; a++)
 	{
 	}
@@ -45,7 +44,7 @@ unsigned int b = 0;
 
 		if (b >= a)
 		{
-			c[b] = s2[b];
+			c[b] = s2[d];
 			d++;
 		}
 		b++;
