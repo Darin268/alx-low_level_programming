@@ -21,11 +21,12 @@ for (a = 0; a < n; a++)
 {
 c = va_arg(list, char *);
 
-printf("%s", c);
 
 if (c  == NULL)
 printf("%s", "(nil)");
 
+else
+printf("%s", c);
 
 if (a != n - 1 && separator != NULL)
 printf("%s", separator);
