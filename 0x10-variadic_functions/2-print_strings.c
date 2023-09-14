@@ -18,11 +18,12 @@ va_start(list, n);
 
 for (a = 0; a < n; a++)
 {
-if (va_arg == NULL)
+
+printf("%s", va_arg(list, char *));
+
+if (va_arg(list, char *)  == NULL)
 printf("%s", "(nil)");
 
-else
-printf("%s", va_arg(list, char *));
 
 if (a != n - 1 && separator != NULL)
 printf("%s", separator);
