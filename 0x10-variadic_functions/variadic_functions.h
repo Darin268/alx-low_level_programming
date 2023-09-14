@@ -1,6 +1,6 @@
 #ifndef MYHEADERS_H
 #define MYHEADERS_H
-#include <stdrag.h>
+#include <stdarg.h>
 
 int _putchar(char c);
 int sum_them_all(const unsigned int n, ...);
