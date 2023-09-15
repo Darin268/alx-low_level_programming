@@ -31,7 +31,7 @@ void print_all(const char * const format, ...)
 		{
 			if (format[a] == *format_list[b].id)
 			{
-				form_types[b].f(separator, list);
+				format_list[b].f(separator, list);
 				separator = ", ";
 			}
 			b++;
