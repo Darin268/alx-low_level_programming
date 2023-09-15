@@ -20,7 +20,7 @@ void print_all(const char * const format, ...)
 
 	unsigned int a = 0;
 	unsigned int b = 0;
-	char *separator;
+	char *separator = "";
 
 	va_start(list, format);
 
@@ -84,13 +84,13 @@ void print_a_float(char *separator, va_list list)
 
 void print_a_char_ptr(char *separator, va_list list)
 {
-	char *c = va_arg(list, char *);
+	char *ptr = va_arg(list, char *);
 
-	if (c == NULL)
+	if (ptr == NULL)
 	{
 		printf("%s%s", separator, "(nil)");
 		return;
 	}
 
-	printf("%s%s", separator, c);
+	printf("%s%s", separator, ptr);
 }
