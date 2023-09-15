@@ -11,7 +11,7 @@ void print_all(const char * const format, ...)
 {
 	va_list list;
 
-	f_id form_types[] = {
+	f_id format_list[] = {
 		{ "c", print_a_char },
 		{ "i", print_an_integer },
 		{ "f", print_a_float },
@@ -29,7 +29,7 @@ void print_all(const char * const format, ...)
 		b = 0;
 		while (b < 4)
 		{
-			if (format[a] == *form_types[b].id)
+			if (format[a] == *format_list[b].id)
 			{
 				form_types[b].f(separator, list);
 				separator = ", ";
