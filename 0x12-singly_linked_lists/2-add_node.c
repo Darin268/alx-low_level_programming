@@ -20,6 +20,7 @@ int _strlen(const char *s)
 	}
 
 	return (count);
+}
 
 /**
  * add_node - to adds a new node at the
