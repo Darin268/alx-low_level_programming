@@ -11,19 +11,18 @@
 
 int _strlen(const char *s)
 {
-        int count = 0;
+	int count = 0;
 
-        while (*s)
-        {
-                s++;
-                count++;
-        }
+	while (*s)
+	{
+		s++;
+		count++;
+	}
 
-        return (count);
-}
+	return (count);
 
 /**
- * add_node - to adds a new node at the 
+ * add_node - to adds a new node at the
  * beginning of a list_t list
  * @head: is the first of the node
  * @str: is the string
