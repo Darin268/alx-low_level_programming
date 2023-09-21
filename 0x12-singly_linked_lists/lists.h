@@ -1,7 +1,7 @@
 #ifndef MYHEADERS_H
 #define MYHEADERS_H
 #include <stddef.h>
-
+#include <stdlib.h>
 /**
  * struct list_s - singly linked list
  * @str: string - (malloc'ed string)
