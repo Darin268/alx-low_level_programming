@@ -1,5 +1,6 @@
 #ifndef MYHEADERS_H
 #define MYHEADERS_H
+#include <stddef.h>
 
 /**
  * struct list_s - singly linked list
