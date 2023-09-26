@@ -11,8 +11,9 @@ void free_listint(listint_t *head)
 
 	while (head)
 	{
-		list = head;
-		head = (head).next;
+
+		list = head->next;
+		head = list;
 		free(head);
 	}
 }
