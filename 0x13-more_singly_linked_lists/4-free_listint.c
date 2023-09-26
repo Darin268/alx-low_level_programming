@@ -1,4 +1,5 @@
 #include "lists.h"
+#include <stdlib.h>
 
 /**
  * free_listint - to free a list
@@ -13,6 +14,6 @@ void free_listint(listint_t *head)
 	{
 		list = head;
 		head = (head).next;
-		free(list);
+		free(head);
 	}
 }
