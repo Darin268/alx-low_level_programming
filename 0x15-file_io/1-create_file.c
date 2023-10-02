@@ -27,11 +27,9 @@ int create_file(const char *filename, char *text_content)
 			return (-1);
 
 	w = write(o, text_content, a);
-	if (w == -1)
-	{
-		close(o);
+
+	if (w == -1 || o == -1)
 		return (-1);
-	}
 
 	close(o);
 
