@@ -1,5 +1,6 @@
 #include "main.h"
 #include <stdio.h>
+#include <stdlib.h>
 
 /**
  * main - Entry point
@@ -8,7 +9,7 @@
  * Return: 0 for success and exit codes for failure
  */
 
-int main(int argc, **argv)
+int main(int argc, char **argv)
 {
 	int _from = 0, _to = 0;
 	int rd;
@@ -18,12 +19,12 @@ int main(int argc, **argv)
 	{		dprintf(STDERR_FILENO, "Usage: cp file_from file_to\n");
 		exit(97);
 	}
-	_from = open(av[1], O_RDONLY);
+	_from = open(argv[1], O_RDONLY);
 	if (_from == -1)
 	{	dprintf(STDERR_FILENO, "Error: Can't read from file%s\n", argv[1]);
 		exit(98);
 	}
-	_to = open(av[2], O_WRONLY | O_CREAT | O_TRUNC, 0664);
+	_to = open(argv[2], O_WRONLY | O_CREAT | O_TRUNC, 0664);
 	if (_to == -1)
 	{	dprintf(STDERR_FILENO, "Error: Can't write to%s\n", argv[2]);
 		exit(99);
