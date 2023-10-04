@@ -11,12 +11,12 @@
 
 int main(int argc, char **argv)
 {
-	int _from = 0, _to = 0;
-	int rd;
+	int _from, _to, rd;
 	char buff[BUFSIZ];
 
 	if (argc != 3)
-	{		dprintf(STDERR_FILENO, "Usage: cp file_from file_to\n");
+	{
+		dprintf(STDERR_FILENO, "Usage: cp file_from file_to\n");
 		exit(97);
 	}
 	_from = open(argv[1], O_RDONLY);
