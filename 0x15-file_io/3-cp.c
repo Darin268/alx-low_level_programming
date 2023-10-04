@@ -9,7 +9,7 @@
  * Return: 0 for success and exit codes for failure
  */
 
-int main(int argc, char **argv)
+int main(int argc, char *argv[])
 {
 	int _from, _to, rd;
 	char buff[BUFSIZ];
