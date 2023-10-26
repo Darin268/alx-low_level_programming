@@ -2,12 +2,13 @@
 #include <stddef.h>
 
 /**
- * binary_to_unit - to convert a binary number to an unsigned int
+ * binary_to_uint - to convert a binary number to an unsigned int
  * @b: is the string
+ *
  * Return: the converted number, or 0 if b is NULL
  */
 
-unsigned int binary_to_unit(const char *b)
+unsigned int binary_to_uint(const char *b)
 {
 	int a;
 	unsigned int u = 0;
@@ -22,5 +23,6 @@ unsigned int binary_to_unit(const char *b)
 
 		u = 2 * u + (b[a] - '0');
 	}
+
 	return (u);
 }
