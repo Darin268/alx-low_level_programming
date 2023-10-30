@@ -34,7 +34,7 @@ ssize_t read_textfile(const char *filename, size_t letters)
 	if (r == -1)
 	{
 		free(c);
-		free(o);
+		close(o);
 		return (0);
 	}
 
