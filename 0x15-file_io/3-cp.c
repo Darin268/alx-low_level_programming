@@ -34,7 +34,7 @@ int main(int argc, char *argv[])
 	while ((rd = read(_from, buff, BUFSIZ)) > 0)
 	{
 		if (write(_to, buff, rd) != rd)
-			dprintf(STDERR_FILENO, "Error: Can't write to %s\n", argv[1]);
+			dprintf(STDERR_FILENO, "Error: Can't write to %s\n", argv[2]);
 		exit(99);
 	}
 	if (rd == -1)
