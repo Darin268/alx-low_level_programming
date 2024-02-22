@@ -1,7 +1,6 @@
 #!/usr/bin/python3
-"""
-island_perimeter module
-"""
+"""Island_perimeter module"""
+
 
 def island_perimeter(grid):
     """
