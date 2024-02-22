@@ -3,6 +3,7 @@
 island_perimeter module
 """
 
+
 def island_perimeter(grid):
     """
     Returns the perimeter of the island described in grid
@@ -22,6 +23,7 @@ def island_perimeter(grid):
 
     return perimeter
 
+
 if __name__ == "__main__":
     grid = [
         [0, 0, 0, 0, 0, 0],
@@ -31,4 +33,3 @@ if __name__ == "__main__":
         [0, 0, 0, 0, 0, 0]
     ]
     print(island_perimeter(grid))
-
