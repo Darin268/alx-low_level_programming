@@ -1,6 +1,7 @@
 #!/usr/bin/python3
-"""Island_perimeter module"""
-
+"""
+island_perimeter module
+"""
 
 def island_perimeter(grid):
     """
@@ -30,3 +31,4 @@ if __name__ == "__main__":
         [0, 0, 0, 0, 0, 0]
     ]
     print(island_perimeter(grid))
+
